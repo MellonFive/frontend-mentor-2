@@ -55,7 +55,7 @@ main section .list .insidelist {
 main section .list .bold {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
     text-align: left;
 }
