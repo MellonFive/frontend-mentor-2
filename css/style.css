@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+main {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    position: absolute;
+    top: 50%;
+    width: 70%;
+    height: 25rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .5rem;
+}
+
+main section {
+    padding: 3rem 5rem 2.5rem 6rem;
+}
+
+main section .title {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2rem;
+}
+
+main section .span {
+    color: hsl(277, 64%, 61%);
+}
+
+main section .description {
+    height: 6rem;
+    padding-right: 1rem;
+    margin-bottom: 3.5rem;
+    line-height: 1.6rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main section .list {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section .list .insidelist {
+    list-style: none;
+}
+
+main section .list .bold {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+main section .list .letter {
+    text-transform: uppercase;
+}
+
+main section .list .sub {
+    text-align: center;
+    font-size: .8rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+
+}
+
+main .divimg {
+    background-color: hsl(277, 84%, 31%);
+}
+
+main .imgdesktop {
+    height: 25rem;
+    opacity: 0.4;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
