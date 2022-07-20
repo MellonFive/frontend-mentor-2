@@ -75,6 +75,8 @@ main section .list .sub {
 
 main .divimg {
     background-color: hsl(277, 84%, 31%);
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
 }
 
 main .imgdesktop {
